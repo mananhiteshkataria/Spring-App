@@ -1,4 +1,4 @@
-# Spring-App (This is a mock app ) actual connectivity in spring-app2 #
+# Spring-App (This is a mock app ) actual connectivity in spring-db-app #
 ## Dependency Injection between the objects with simple and complex types ##
 ### You can have setter methods to supply the dependencies of simple or complex type ###
 
@@ -37,3 +37,8 @@ It has 4 properties
 ### JdbcTemplate ###
 It has a property called datasource which is referencing DriverManagerDataSource
 
+###Steps###
+- Using Derby so configure it
+- Project with dependencoes - spring-context,spring-jdbcm derby-client
+- interface EmployeeDao 
+- implementation 
