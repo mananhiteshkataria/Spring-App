@@ -10,6 +10,11 @@ public class TestController
 		ApplicationContext ctx= new ClassPathXmlApplicationContext("beans.xml");
 		// considering this as a controller we need service DI
 		
+		UserService service=(UserService)ctx.getBean("b2");
+		service.save(); // save internally calls store of DB
+		service.delete();
+		ClassPathXmlApplicationContext cpax=(ClassPathXmlApplicationContext)ctx;
+		cpax.close();
 		
 	}
 }
