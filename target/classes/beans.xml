@@ -6,4 +6,9 @@
 		http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-4.0.xsd">
 <!-- Beans is a container of bean tags -->
 	<bean id="b1" class="com.practise.OracleDbImpl"></bean>
+	<bean 
+	id="b2" class="com.practise.UserService">
+	<property name="dbop1" ref="b1">
+	</property>
+	</bean>
 </beans>
