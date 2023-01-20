@@ -1,9 +1,6 @@
 # Spring-App
-made spring app
-
 ## Dependency Injection between the objects with simple and complex types ##
-
-You can have setter methods to supply the dependencies of simple or complex type
+#### You can have setter methods to supply the dependencies of simple or complex type ####
 
 	Class MySQLDBImpl implements DBOperations
 	{
@@ -22,5 +19,3 @@ You can have setter methods to supply the dependencies of simple or complex type
 	<bean id="b2" class="com.practise.UserService">
 		<property name="dbop" ref="b1" />
 	</bean>
-
-	
