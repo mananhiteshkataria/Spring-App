@@ -37,7 +37,7 @@ It has 4 properties
 ### JdbcTemplate ###
 It has a property called datasource which is referencing DriverManagerDataSource
 
-###Steps###
+### Steps ###
 - Using Derby so configure it
 - Project with dependencoes - spring-context,spring-jdbcm derby-client
 - interface EmployeeDao 
