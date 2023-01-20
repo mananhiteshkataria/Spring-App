@@ -42,4 +42,11 @@ It has a property called datasource which is referencing DriverManagerDataSource
 - Project with dependencoes - spring-context,spring-jdbcm derby-client
 	- Employee class - id ,name & salary
 - Interface EmployeeDao 
-- Implementation Employee Control
+- Implementation EmployeeDaoImpl
+- Employee Service Class
+- XML Configuration
+	- DriverManagerDataSource - username , password, url, driverClassName
+	- JDBC Template - datasource
+	- EmployeeDaoImpl
+	- EmployeeService
+- Main class that acts like Conroller
