@@ -1,6 +1,6 @@
 # Spring-App
 ## Dependency Injection between the objects with simple and complex types ##
-#### You can have setter methods to supply the dependencies of simple or complex type ####
+### You can have setter methods to supply the dependencies of simple or complex type ###
 
 	Class MySQLDBImpl implements DBOperations
 	{
@@ -19,3 +19,13 @@
 	<bean id="b2" class="com.practise.UserService">
 		<property name="dbop" ref="b1" />
 	</bean>
+## Spring JDBC ##
+
+-	It helps you to interact with any Relational Database 	systems like Oracle,Mysql,Derby,Sybase and so on
+
+-	It gives you a configuration class (DriverManagerDataSource) to configure datasource information like username,password,url,driverClass,this class establishes database connection object for you using the configuration in XML
+
+- It gives you a template class (JdbcTemplate) that uses DriverManagerDataSource to perform CRUD operations
+  
+- 
+
