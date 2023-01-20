@@ -1,4 +1,4 @@
-# Spring-App
+# Spring-App (This is a mock app ) actual connectivity in spring-app2 #
 ## Dependency Injection between the objects with simple and complex types ##
 ### You can have setter methods to supply the dependencies of simple or complex type ###
 
