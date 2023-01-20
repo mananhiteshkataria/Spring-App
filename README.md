@@ -27,13 +27,13 @@
 
 - It gives you a template class (JdbcTemplate) that uses DriverManagerDataSource to perform CRUD operations
   
-###DriverManagerDataSource###
+### DriverManagerDataSource ###
 It has 4 properties
 -username
 -password
 -url
 -driverclassName
 
-###JdbcTemplate###
+### JdbcTemplate ###
 It has a property called datasource which is referencing DriverManagerDataSource
 
