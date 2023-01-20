@@ -41,5 +41,5 @@ It has a property called datasource which is referencing DriverManagerDataSource
 - Using Derby so configure it
 - Project with dependencoes - spring-context,spring-jdbcm derby-client
 	- Employee class - id ,name & salary
-- interface EmployeeDao 
-- implementation 
+- Interface EmployeeDao 
+- Implementation Employee Control
